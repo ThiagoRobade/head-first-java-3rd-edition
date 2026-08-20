@@ -6,7 +6,6 @@ public class Exercise1a {
         while (x < 10) {
             if (x > 3) {
                 System.out.println("big x");
-
             }
             x++;
         }

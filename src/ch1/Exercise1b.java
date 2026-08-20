@@ -1,5 +1,6 @@
 package ch1;
 
+// class declaration intentionally missing in exercise
 public class Exercise1b {
     public static void main(String[] args) {
         int x = 5;

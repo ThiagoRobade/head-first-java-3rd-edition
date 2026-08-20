@@ -1,6 +1,7 @@
 package ch1;
 
 public class Exercise1c {
+    // method declaration intentionally missing in exercise
     public static void main(String[] args) {
         int x = 5;
         while (x > 1) {
