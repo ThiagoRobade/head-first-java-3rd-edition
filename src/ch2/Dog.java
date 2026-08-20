@@ -1,7 +1,6 @@
 package ch2;
 
 public class Dog {
-
     int size;
     String breed;
     String name;
@@ -11,10 +10,3 @@ public class Dog {
     }
 }
 
-class TestDrive {
-    public static void main(String[] args) {
-        Dog d = new Dog();
-        d.size = 40;
-        d.bark();
-    }
-}

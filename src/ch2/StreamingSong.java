@@ -10,19 +10,18 @@ public class StreamingSong {
     }
 
     void printDetails() {
-        System.out.println("This is " + title + " by " + artist);
+        System.out.println("This is " + title +
+                " by " + artist);
     }
 }
 
 class StreamingSongTestDrive {
-
     public static void main(String[] args) {
-
         StreamingSong song = new StreamingSong();
-
         song.artist = "The Beatles";
         song.title = "Come Together";
         song.play();
         song.printDetails();
     }
 }
+
